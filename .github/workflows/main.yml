@@ -22,4 +22,4 @@ jobs:
         curl https://raw.githubusercontent.com/apoorvau6/pynt/main/Mynewcollection.postman_collection.json 
     - name: run pynt with newman integration 
       run: | 
-        pynt newman --collection Mynewcollection.postman_collection.json --reporters
+        pynt newman --collection https://raw.githubusercontent.com/apoorvau6/pynt/main/Mynewcollection.postman_collection.json --reporters
